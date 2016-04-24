@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 <?php
 
 define('BOT_TOKEN', '88684343:AAHWSj4XKU2BcRb4S9pCa78RRaI5bAkphBI');
@@ -162,5 +159,4 @@ if (!$update) {
 if (isset($update["message"])) {
   processMessage($update["message"]);
 }
-</body>
-</html>
+?>
